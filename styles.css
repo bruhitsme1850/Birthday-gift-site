@@ -9,6 +9,7 @@ body {
     linear-gradient(#90c5f280 40%, pink);
   background-repeat: no-repeat;
   background-position: 40% 0%;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,9 +41,8 @@ body {
 .title-picture {
   float: left;
   position: relative;
-  width:314px;
-  height:314px;
-
+  width: 314px;
+  height: 314px;
 }
 
 .pic-title {
@@ -57,7 +57,7 @@ body {
 #mustache {
   position: absolute;
   width: 34px;
-  top:80px;
+  top: 80px;
   left: 160px;
   margin: 0;
 }
@@ -82,7 +82,6 @@ body {
   margin-bottom: 100px;
   border: 7px solid rgb(203, 1, 1);
   border-radius: 50px;
-
 }
 
 #gift1:hover {
@@ -123,7 +122,6 @@ body {
   border: 7px solid rgb(203, 1, 1);
   border-radius: 50px;
   object-fit: cover;
-  
 }
 
 #gift4:hover {
