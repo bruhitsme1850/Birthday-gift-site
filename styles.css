@@ -9,7 +9,7 @@ body {
     linear-gradient(#90c5f280 40%, pink);
   background-repeat: no-repeat;
   background-position: 40% 0%;
-  background-size: contain;
+  background-size: 115%;
   display: flex;
   flex-direction: column;
   align-items: center;
